@@ -1,0 +1,126 @@
+﻿生成启动时间为 2018/6/26 20:10:06。
+     1>项目“D:\WorkPlace\光电小车\山外K60 UD专属例程6.2\K60 UD版代码\37.LCD_英文_汉字_浮点数_整型_显示\Prj\vs2010\vcan_Kinetis.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         F:\Visual Studio\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /Od /Oy- /D DEBUG /D ARM_MATH_CM4 /D MK60F15 /D MK60FN15 /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"FN15_Debug\\" /Fd"FN15_Debug\vc110.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\App\camera_deal.c ..\..\App\direction_control.c ..\..\App\main.c ..\..\App\MK60_conf.c ..\..\App\MK60_it.c ..\..\App\ultrasonic.c ..\..\Board\src\VCAN_ASCII.c ..\..\Board\src\VCAN_BMP.c ..\..\Board\src\VCAN_camera.c ..\..\Board\src\VCAN_computer.c ..\..\Board\src\vcan_img2sd.c ..\..\Board\src\VCAN_key.c ..\..\Board\src\VCAN_key_event.c ..\..\Board\src\VCAN_LCD.c ..\..\Board\src\VCAN_LCD_CH.c ..\..\Board\src\VCAN_LCD_ILI9341.c ..\..\Board\src\VCAN_LCD_ST7735R.c ..\..\Board\src\VCAN_LCD_ST7735S.c ..\..\Board\src\VCAN_MMA7455.c ..\..\Board\src\VCAN_NRF24L0.c ..\..\Board\src\VCAN_NRF24L0_MSG.c ..\..\Board\src\VCAN_OV7725_Eagle.c ..\..\Board\src\VCAN_OV7725_Wolf.c ..\..\Board\src\VCAN_SCCB.c ..\..\Board\src\vcan_sd_app.c ..\..\Board\src\Vcan_touch.c ..\..\Board\src\VCAN_TSL1401.c ..\..\Board\src\VCAN_UI_VAR.c ..\..\Chip\src\car.c ..\..\Chip\src\misc.c ..\..\Chip\src\MK60_adc.c ..\..\Chip\src\MK60_can.c ..\..\Chip\src\MK60_dac.c ..\..\Chip\src\MK60_dma.c ..\..\Chip\src\MK60_DWT.c ..\..\Chip\src\MK60_flexbus.c ..\..\Chip\src\MK60_ftm.c ..\..\Chip\src\MK60_gpio.c ..\..\Chip\src\MK60_i2c.c ..\..\Chip\src\MK60_lptmr.c ..\..\Chip\src\MK60_mcg.c ..\..\Chip\src\MK60_PIT.c ..\..\Chip\src\MK60_port.c ..\..\Chip\src\MK60_rtc.c ..\..\Chip\src\MK60_sdhc.c ..\..\Chip\src\MK60_spi.c ..\..\Chip\src\MK60_SysTick.c ..\..\Chip\src\MK60_uart.c ..\..\Chip\src\MK60_usb.c ..\..\Chip\src\MK60_wdog.c ..\..\Chip\src\IAR\system_MK60DZ10.c ..\..\Chip\src\Speed_control.c ..\..\Chip\src\vectors.c ..\..\Lib\FatFs\diskio.c ..\..\Lib\FatFs\ff.c ..\..\Lib\USB\USB.c ..\..\Lib\USB\USB_CDC.c
+         camera_deal.c
+     1>D:\WorkPlace\光电小车\山外K60 UD专属例程6.2\K60 UD版代码\37.LCD_英文_汉字_浮点数_整型_显示\Chip\inc\common.h(380): fatal error C1083: 无法打开包括文件:“stdio.h”: No such file or directory
+         direction_control.c
+         main.c
+     1>D:\WorkPlace\光电小车\山外K60 UD专属例程6.2\K60 UD版代码\37.LCD_英文_汉字_浮点数_整型_显示\Chip\inc\common.h(380): fatal error C1083: 无法打开包括文件:“stdio.h”: No such file or directory
+         MK60_conf.c
+     1>D:\WorkPlace\光电小车\山外K60 UD专属例程6.2\K60 UD版代码\37.LCD_英文_汉字_浮点数_整型_显示\Chip\inc\common.h(380): fatal error C1083: 无法打开包括文件:“stdio.h”: No such file or directory
+         MK60_it.c
+     1>D:\WorkPlace\光电小车\山外K60 UD专属例程6.2\K60 UD版代码\37.LCD_英文_汉字_浮点数_整型_显示\Chip\inc\common.h(380): fatal error C1083: 无法打开包括文件:“stdio.h”: No such file or directory
+         ultrasonic.c
+     1>D:\WorkPlace\光电小车\山外K60 UD专属例程6.2\K60 UD版代码\37.LCD_英文_汉字_浮点数_整型_显示\Chip\inc\common.h(380): fatal error C1083: 无法打开包括文件:“stdio.h”: No such file or directory
+         VCAN_ASCII.c
+         VCAN_BMP.c
+     1>D:\WorkPlace\光电小车\山外K60 UD专属例程6.2\K60 UD版代码\37.LCD_英文_汉字_浮点数_整型_显示\Chip\inc\common.h(380): fatal error C1083: 无法打开包括文件:“stdio.h”: No such file or directory
+         VCAN_camera.c
+     1>D:\WorkPlace\光电小车\山外K60 UD专属例程6.2\K60 UD版代码\37.LCD_英文_汉字_浮点数_整型_显示\Chip\inc\common.h(380): fatal error C1083: 无法打开包括文件:“stdio.h”: No such file or directory
+         VCAN_computer.c
+     1>D:\WorkPlace\光电小车\山外K60 UD专属例程6.2\K60 UD版代码\37.LCD_英文_汉字_浮点数_整型_显示\Chip\inc\common.h(380): fatal error C1083: 无法打开包括文件:“stdio.h”: No such file or directory
+         vcan_img2sd.c
+     1>D:\WorkPlace\光电小车\山外K60 UD专属例程6.2\K60 UD版代码\37.LCD_英文_汉字_浮点数_整型_显示\Chip\inc\common.h(380): fatal error C1083: 无法打开包括文件:“stdio.h”: No such file or directory
+         VCAN_key.c
+     1>D:\WorkPlace\光电小车\山外K60 UD专属例程6.2\K60 UD版代码\37.LCD_英文_汉字_浮点数_整型_显示\Chip\inc\common.h(380): fatal error C1083: 无法打开包括文件:“stdio.h”: No such file or directory
+         VCAN_key_event.c
+     1>D:\WorkPlace\光电小车\山外K60 UD专属例程6.2\K60 UD版代码\37.LCD_英文_汉字_浮点数_整型_显示\Chip\inc\common.h(380): fatal error C1083: 无法打开包括文件:“stdio.h”: No such file or directory
+         VCAN_LCD.c
+     1>D:\WorkPlace\光电小车\山外K60 UD专属例程6.2\K60 UD版代码\37.LCD_英文_汉字_浮点数_整型_显示\Chip\inc\common.h(380): fatal error C1083: 无法打开包括文件:“stdio.h”: No such file or directory
+         VCAN_LCD_CH.c
+     1>D:\WorkPlace\光电小车\山外K60 UD专属例程6.2\K60 UD版代码\37.LCD_英文_汉字_浮点数_整型_显示\Chip\inc\common.h(380): fatal error C1083: 无法打开包括文件:“stdio.h”: No such file or directory
+         VCAN_LCD_ILI9341.c
+     1>D:\WorkPlace\光电小车\山外K60 UD专属例程6.2\K60 UD版代码\37.LCD_英文_汉字_浮点数_整型_显示\Chip\inc\common.h(380): fatal error C1083: 无法打开包括文件:“stdio.h”: No such file or directory
+         VCAN_LCD_ST7735R.c
+     1>D:\WorkPlace\光电小车\山外K60 UD专属例程6.2\K60 UD版代码\37.LCD_英文_汉字_浮点数_整型_显示\Chip\inc\common.h(380): fatal error C1083: 无法打开包括文件:“stdio.h”: No such file or directory
+         VCAN_LCD_ST7735S.c
+     1>D:\WorkPlace\光电小车\山外K60 UD专属例程6.2\K60 UD版代码\37.LCD_英文_汉字_浮点数_整型_显示\Chip\inc\common.h(380): fatal error C1083: 无法打开包括文件:“stdio.h”: No such file or directory
+         VCAN_MMA7455.c
+     1>D:\WorkPlace\光电小车\山外K60 UD专属例程6.2\K60 UD版代码\37.LCD_英文_汉字_浮点数_整型_显示\Chip\inc\common.h(380): fatal error C1083: 无法打开包括文件:“stdio.h”: No such file or directory
+         VCAN_NRF24L0.c
+     1>D:\WorkPlace\光电小车\山外K60 UD专属例程6.2\K60 UD版代码\37.LCD_英文_汉字_浮点数_整型_显示\Chip\inc\common.h(380): fatal error C1083: 无法打开包括文件:“stdio.h”: No such file or directory
+         正在生成代码...
+         正在编译...
+         VCAN_NRF24L0_MSG.c
+     1>D:\WorkPlace\光电小车\山外K60 UD专属例程6.2\K60 UD版代码\37.LCD_英文_汉字_浮点数_整型_显示\Chip\inc\common.h(380): fatal error C1083: 无法打开包括文件:“stdio.h”: No such file or directory
+         VCAN_OV7725_Eagle.c
+     1>D:\WorkPlace\光电小车\山外K60 UD专属例程6.2\K60 UD版代码\37.LCD_英文_汉字_浮点数_整型_显示\Chip\inc\common.h(380): fatal error C1083: 无法打开包括文件:“stdio.h”: No such file or directory
+         VCAN_OV7725_Wolf.c
+     1>D:\WorkPlace\光电小车\山外K60 UD专属例程6.2\K60 UD版代码\37.LCD_英文_汉字_浮点数_整型_显示\Chip\inc\common.h(380): fatal error C1083: 无法打开包括文件:“stdio.h”: No such file or directory
+         VCAN_SCCB.c
+     1>D:\WorkPlace\光电小车\山外K60 UD专属例程6.2\K60 UD版代码\37.LCD_英文_汉字_浮点数_整型_显示\Chip\inc\common.h(380): fatal error C1083: 无法打开包括文件:“stdio.h”: No such file or directory
+         vcan_sd_app.c
+     1>D:\WorkPlace\光电小车\山外K60 UD专属例程6.2\K60 UD版代码\37.LCD_英文_汉字_浮点数_整型_显示\Chip\inc\common.h(380): fatal error C1083: 无法打开包括文件:“stdio.h”: No such file or directory
+         Vcan_touch.c
+     1>D:\WorkPlace\光电小车\山外K60 UD专属例程6.2\K60 UD版代码\37.LCD_英文_汉字_浮点数_整型_显示\Chip\inc\common.h(380): fatal error C1083: 无法打开包括文件:“stdio.h”: No such file or directory
+         VCAN_TSL1401.c
+     1>D:\WorkPlace\光电小车\山外K60 UD专属例程6.2\K60 UD版代码\37.LCD_英文_汉字_浮点数_整型_显示\Chip\inc\common.h(380): fatal error C1083: 无法打开包括文件:“stdio.h”: No such file or directory
+         VCAN_UI_VAR.c
+     1>D:\WorkPlace\光电小车\山外K60 UD专属例程6.2\K60 UD版代码\37.LCD_英文_汉字_浮点数_整型_显示\Chip\inc\common.h(380): fatal error C1083: 无法打开包括文件:“stdio.h”: No such file or directory
+         car.c
+     1>D:\WorkPlace\光电小车\山外K60 UD专属例程6.2\K60 UD版代码\37.LCD_英文_汉字_浮点数_整型_显示\Chip\inc\common.h(380): fatal error C1083: 无法打开包括文件:“stdio.h”: No such file or directory
+         misc.c
+     1>D:\WorkPlace\光电小车\山外K60 UD专属例程6.2\K60 UD版代码\37.LCD_英文_汉字_浮点数_整型_显示\Chip\inc\common.h(380): fatal error C1083: 无法打开包括文件:“stdio.h”: No such file or directory
+         MK60_adc.c
+     1>D:\WorkPlace\光电小车\山外K60 UD专属例程6.2\K60 UD版代码\37.LCD_英文_汉字_浮点数_整型_显示\Chip\inc\common.h(380): fatal error C1083: 无法打开包括文件:“stdio.h”: No such file or directory
+         MK60_can.c
+     1>D:\WorkPlace\光电小车\山外K60 UD专属例程6.2\K60 UD版代码\37.LCD_英文_汉字_浮点数_整型_显示\Chip\inc\common.h(380): fatal error C1083: 无法打开包括文件:“stdio.h”: No such file or directory
+         MK60_dac.c
+     1>D:\WorkPlace\光电小车\山外K60 UD专属例程6.2\K60 UD版代码\37.LCD_英文_汉字_浮点数_整型_显示\Chip\inc\common.h(380): fatal error C1083: 无法打开包括文件:“stdio.h”: No such file or directory
+         MK60_dma.c
+     1>D:\WorkPlace\光电小车\山外K60 UD专属例程6.2\K60 UD版代码\37.LCD_英文_汉字_浮点数_整型_显示\Chip\inc\common.h(380): fatal error C1083: 无法打开包括文件:“stdio.h”: No such file or directory
+         MK60_DWT.c
+     1>D:\WorkPlace\光电小车\山外K60 UD专属例程6.2\K60 UD版代码\37.LCD_英文_汉字_浮点数_整型_显示\Chip\inc\common.h(380): fatal error C1083: 无法打开包括文件:“stdio.h”: No such file or directory
+         MK60_flexbus.c
+     1>D:\WorkPlace\光电小车\山外K60 UD专属例程6.2\K60 UD版代码\37.LCD_英文_汉字_浮点数_整型_显示\Chip\inc\common.h(380): fatal error C1083: 无法打开包括文件:“stdio.h”: No such file or directory
+         MK60_ftm.c
+     1>D:\WorkPlace\光电小车\山外K60 UD专属例程6.2\K60 UD版代码\37.LCD_英文_汉字_浮点数_整型_显示\Chip\inc\common.h(380): fatal error C1083: 无法打开包括文件:“stdio.h”: No such file or directory
+         MK60_gpio.c
+     1>D:\WorkPlace\光电小车\山外K60 UD专属例程6.2\K60 UD版代码\37.LCD_英文_汉字_浮点数_整型_显示\Chip\inc\common.h(380): fatal error C1083: 无法打开包括文件:“stdio.h”: No such file or directory
+         MK60_i2c.c
+     1>D:\WorkPlace\光电小车\山外K60 UD专属例程6.2\K60 UD版代码\37.LCD_英文_汉字_浮点数_整型_显示\Chip\inc\common.h(380): fatal error C1083: 无法打开包括文件:“stdio.h”: No such file or directory
+         MK60_lptmr.c
+     1>D:\WorkPlace\光电小车\山外K60 UD专属例程6.2\K60 UD版代码\37.LCD_英文_汉字_浮点数_整型_显示\Chip\inc\common.h(380): fatal error C1083: 无法打开包括文件:“stdio.h”: No such file or directory
+         正在生成代码...
+         正在编译...
+         MK60_mcg.c
+     1>D:\WorkPlace\光电小车\山外K60 UD专属例程6.2\K60 UD版代码\37.LCD_英文_汉字_浮点数_整型_显示\Chip\inc\common.h(380): fatal error C1083: 无法打开包括文件:“stdio.h”: No such file or directory
+         MK60_PIT.c
+     1>D:\WorkPlace\光电小车\山外K60 UD专属例程6.2\K60 UD版代码\37.LCD_英文_汉字_浮点数_整型_显示\Chip\inc\common.h(380): fatal error C1083: 无法打开包括文件:“stdio.h”: No such file or directory
+         MK60_port.c
+     1>D:\WorkPlace\光电小车\山外K60 UD专属例程6.2\K60 UD版代码\37.LCD_英文_汉字_浮点数_整型_显示\Chip\inc\common.h(380): fatal error C1083: 无法打开包括文件:“stdio.h”: No such file or directory
+         MK60_rtc.c
+     1>D:\WorkPlace\光电小车\山外K60 UD专属例程6.2\K60 UD版代码\37.LCD_英文_汉字_浮点数_整型_显示\Chip\inc\common.h(380): fatal error C1083: 无法打开包括文件:“stdio.h”: No such file or directory
+         MK60_sdhc.c
+     1>D:\WorkPlace\光电小车\山外K60 UD专属例程6.2\K60 UD版代码\37.LCD_英文_汉字_浮点数_整型_显示\Chip\inc\common.h(380): fatal error C1083: 无法打开包括文件:“stdio.h”: No such file or directory
+         MK60_spi.c
+     1>D:\WorkPlace\光电小车\山外K60 UD专属例程6.2\K60 UD版代码\37.LCD_英文_汉字_浮点数_整型_显示\Chip\inc\common.h(380): fatal error C1083: 无法打开包括文件:“stdio.h”: No such file or directory
+         MK60_SysTick.c
+     1>D:\WorkPlace\光电小车\山外K60 UD专属例程6.2\K60 UD版代码\37.LCD_英文_汉字_浮点数_整型_显示\Chip\inc\common.h(380): fatal error C1083: 无法打开包括文件:“stdio.h”: No such file or directory
+         MK60_uart.c
+     1>D:\WorkPlace\光电小车\山外K60 UD专属例程6.2\K60 UD版代码\37.LCD_英文_汉字_浮点数_整型_显示\Chip\inc\common.h(380): fatal error C1083: 无法打开包括文件:“stdio.h”: No such file or directory
+         MK60_usb.c
+     1>D:\WorkPlace\光电小车\山外K60 UD专属例程6.2\K60 UD版代码\37.LCD_英文_汉字_浮点数_整型_显示\Chip\inc\common.h(380): fatal error C1083: 无法打开包括文件:“stdio.h”: No such file or directory
+         MK60_wdog.c
+     1>D:\WorkPlace\光电小车\山外K60 UD专属例程6.2\K60 UD版代码\37.LCD_英文_汉字_浮点数_整型_显示\Chip\inc\common.h(380): fatal error C1083: 无法打开包括文件:“stdio.h”: No such file or directory
+         system_MK60DZ10.c
+     1>D:\WorkPlace\光电小车\山外K60 UD专属例程6.2\K60 UD版代码\37.LCD_英文_汉字_浮点数_整型_显示\Chip\inc\common.h(380): fatal error C1083: 无法打开包括文件:“stdio.h”: No such file or directory
+         Speed_control.c
+     1>D:\WorkPlace\光电小车\山外K60 UD专属例程6.2\K60 UD版代码\37.LCD_英文_汉字_浮点数_整型_显示\Chip\inc\common.h(380): fatal error C1083: 无法打开包括文件:“stdio.h”: No such file or directory
+         vectors.c
+     1>D:\WorkPlace\光电小车\山外K60 UD专属例程6.2\K60 UD版代码\37.LCD_英文_汉字_浮点数_整型_显示\Chip\inc\common.h(380): fatal error C1083: 无法打开包括文件:“stdio.h”: No such file or directory
+         diskio.c
+     1>D:\WorkPlace\光电小车\山外K60 UD专属例程6.2\K60 UD版代码\37.LCD_英文_汉字_浮点数_整型_显示\Chip\inc\common.h(380): fatal error C1083: 无法打开包括文件:“stdio.h”: No such file or directory
+         ff.c
+     1>d:\workplace\光电小车\山外k60 ud专属例程6.2\k60 ud版代码\37.lcd_英文_汉字_浮点数_整型_显示\lib\fatfs\integer.h(10): fatal error C1083: 无法打开包括文件:“windows.h”: No such file or directory
+         USB.c
+     1>D:\WorkPlace\光电小车\山外K60 UD专属例程6.2\K60 UD版代码\37.LCD_英文_汉字_浮点数_整型_显示\Chip\inc\common.h(380): fatal error C1083: 无法打开包括文件:“stdio.h”: No such file or directory
+         USB_CDC.c
+     1>D:\WorkPlace\光电小车\山外K60 UD专属例程6.2\K60 UD版代码\37.LCD_英文_汉字_浮点数_整型_显示\Chip\inc\common.h(380): fatal error C1083: 无法打开包括文件:“stdio.h”: No such file or directory
+         正在生成代码...
+     1>已完成生成项目“D:\WorkPlace\光电小车\山外K60 UD专属例程6.2\K60 UD版代码\37.LCD_英文_汉字_浮点数_整型_显示\Prj\vs2010\vcan_Kinetis.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:03.35
