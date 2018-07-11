@@ -792,11 +792,15 @@ void ftm_quad_init(FTMn_e ftmn)
                                      | FTM_MODE_WPDIS_MASK  //写保护禁止
                                      //| FTM_MODE_FTMEN_MASK   //使能 FTM
                                     );
-    FTM_QDCTRL_REG(FTMN[ftmn]) |= FTM_QDCTRL_QUADMODE_MASK;  //改了
+    FTM_QDCTRL_REG(FTMN[ftmn]) |=   (0
+                                    | FTM_QDCTRL_QUADMODE_MASK
+                                     );
     FTM_CNTIN_REG(FTMN[ftmn])   = 0;
     FTM_MOD_REG(FTMN[ftmn])     = FTM_MOD_MOD_MASK;
-    FTM_QDCTRL_REG(FTMN[ftmn]) |= FTM_QDCTRL_QUADEN_MASK;  //改了
-    FTM_MODE_REG(FTMN[ftmn])  |= FTM_MODE_FTMEN_MASK;
+    FTM_QDCTRL_REG(FTMN[ftmn]) |=   (0
+                                    | FTM_QDCTRL_QUADEN_MASK
+                                     );
+    FTM_MODE_REG(FTMN[ftmn])  |= FTM_QDCTRL_QUADEN_MASK;
     FTM_CNT_REG(FTMN[ftmn])     = 0;                    //计数器。只有低16位可用（写任何值到此寄存器，都会加载 CNTIN 的值）
 }
 

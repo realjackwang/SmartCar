@@ -123,7 +123,9 @@ void ContinuousImage(uint32 threshold)//´«ÈëÃ¿·ùÍ¼ÏñÖĞ1µÄ¸öÊıµÄãĞÖµ Ò»µ©³¬¹ı ÅĞ¶
           uint32 j=0,h=0;
           camera_get_img(); //ÉãÏñÍ·»ñÈ¡Í¼Ïñ
           img_extract(img, (uint8 *)imgbuff,CAMERA_SIZE);  //½âÑ¹Í¼Ïñ
+          
           for(h=0;h<4800;h++){if(img[h]==1){j++;}}
+          
           if(j>threshold)
           {break;}
        }
@@ -172,8 +174,8 @@ int ImageProcessing(uint8 *string,uint32 *m)//×îÖØÒªµÄ´ó¸Å¾ÍÊÇÕâ¸ö°É ÅĞ¶ÏÍ¼ÏñÎ»Ö
 {
     uint32 i,x,y,a,b,B=0,H=255;
     double IA;
-    /*¼òµ¥µÄÂË²¨ ÊµÔÚ¿´²»¶®µÄ»° À´ÕÒÎÒ*/
-	
+    
+    /*ÂË²¨*/
      for(i=0;i<4800;i++)
     {
        
@@ -185,6 +187,8 @@ int ImageProcessing(uint8 *string,uint32 *m)//×îÖØÒªµÄ´ó¸Å¾ÍÊÇÕâ¸ö°É ÅĞ¶ÏÍ¼ÏñÎ»Ö
             i=i+2;}
          else {string[i]=B;}
      }
+     
+     
    
     for(i=80;i<4720;i++)//È·¶¨Í¼ÏñµÄµÚÒ»ĞĞ
         {
@@ -197,10 +201,12 @@ int ImageProcessing(uint8 *string,uint32 *m)//×îÖØÒªµÄ´ó¸Å¾ÍÊÇÕâ¸ö°É ÅĞ¶ÏÍ¼ÏñÎ»Ö
         {        
         if(string[i]==H&&string[i+80]==B&&string[i-80]==H&&string[i+1]==H&&string[i+81]==B&&string[i-79]==H&&string[i+2]==H&&string[i+82]==B&&string[i-78]==H&&string[i+1-80*2]==H)
          { b=i/79+1;}
+        if(i>=4640 && string[i]==H&&string[i+80]==H&&string[i-80]==H&&string[i+1]==H&&string[i+81]==H&&string[i-79]==H&&string[i+2]==H&&string[i+82]==H&&string[i-78]==H&&string[i+1-80*2]==H){b = 60;}
         }
-      //  printf("a:%d\r\n",a);
-      //  printf("b:%d\r\n",b);
-        //-------------------------------------ÓĞÎÊÌâ
+
+     
+     
+ 
         x=(b-a)/2+a;//Í¼ÏñµÄÖĞ¼äĞĞ
         a=0;b=0;
         if(x!=0)//È·¶¨ÁĞ 
@@ -217,9 +223,7 @@ int ImageProcessing(uint8 *string,uint32 *m)//×îÖØÒªµÄ´ó¸Å¾ÍÊÇÕâ¸ö°É ÅĞ¶ÏÍ¼ÏñÎ»Ö
                if(string[i]==H&&string[i+1]==B&&string[i-1]==H&&string[i-2]==H){b=(i-((x-1)*80))+1;}   
              }
         }
-        //-----------------------------------------
-       // printf("a:%d\r\n",a);
-       // printf("b:%d\r\n",b);
+
        y=(b-a)/2+a; //ÖĞ¼äÁĞ
        a=0;b=0;
        if(x>0&&x<80){(*m)=x;}//·µ»ØÍ¼ÏñµÄÖĞ¼äĞĞ ÓÃÓÚ±ÚÕÏ
@@ -228,8 +232,8 @@ int ImageProcessing(uint8 *string,uint32 *m)//×îÖØÒªµÄ´ó¸Å¾ÍÊÇÕâ¸ö°É ÅĞ¶ÏÍ¼ÏñÎ»Ö
          IA=((double)y-40)/(60-(double)x);
          x=0;y=0;
          IA= atan(IA)*180.0/3.14;// ½Ç¶È×ª»»¹«Ê½ ×Ô¼ºÀí½â
-         if(IA<(-35)){IA=-35;}
-         if(IA>(35)){IA=35;}
+         if(IA<(-60)){IA=-60;}
+         if(IA>(60)){IA=60;}
          return (int)IA;
        }  
       else{return 200;}    

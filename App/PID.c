@@ -21,9 +21,9 @@ void PID_init_left(){
   pid.err_last=0.0;
   pid.err_next=0.0;
   pid.incrementSpeed=0;
-  pid.Kp=50;
+  pid.Kp=5;
   pid.Ki=0;
-  pid.Kd=0.1;
+  pid.Kd=10;
   pid.duty=100;
 }
 uint32 PID_realize_left(float speed,int16 actual_speed){
@@ -82,9 +82,9 @@ void PID_init_right(){
   pid3.err_last=0.0;
   pid3.err_next=0.0;
   pid3.incrementSpeed=0;
-  pid3.Kp=50;
+  pid3.Kp=10;
   pid3.Ki=0;
-  pid3.Kd=0.1;
+  pid3.Kd=50;
   pid3.duty=100;
 }
 uint32 PID_realize_right(float speed,int16 actual_speed){
@@ -179,9 +179,9 @@ void PID_init2(){
   pid2.Integral_bias=0.0;
   pid2.Last_Bias=0.0;
   
-  pid2.Position_KP=5;
+  pid2.Position_KP=0.3;
   pid2.Position_Ki=0;
-  pid2.Position_KD=2;
+  pid2.Position_KD=5;
   pid2.incrementangle=0;
 }
 uint32 Position_PID(float Encoder,int32 Target){
@@ -210,11 +210,11 @@ uint32 Position_PID(float Encoder,int32 Target){
     CONA = -CONA;
     dutya = 75+(uint32)CONA;
   }
-  if (dutya > 105){ //设置占空比最大最小值  
-    dutya = 105;
+  if (dutya > 100){ //设置占空比最大最小值  
+    dutya = 100;
   }
-  if (dutya < 45){
-    dutya = 45;
+  if (dutya < 50){
+    dutya = 50;
   }
   
   return dutya;

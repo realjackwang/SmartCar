@@ -25,7 +25,7 @@ if not "%1" == "" goto debugFile
 
 @echo on 
 
-"C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.2\common\bin\cspybat" -f "D:\WorkPlace\光电小车\山外K60 UD专属例程6.2\K60 UD版代码\37.LCD_英文_汉字_浮点数_整型_显示\Prj\IAR\settings\vcan_Kinetis.DZ10_Debug.general.xcl" --backend -f "D:\WorkPlace\光电小车\山外K60 UD专属例程6.2\K60 UD版代码\37.LCD_英文_汉字_浮点数_整型_显示\Prj\IAR\settings\vcan_Kinetis.DZ10_Debug.driver.xcl" 
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.2\common\bin\cspybat" -f "C:\Users\Jack\Desktop\小车K60测试版\Prj\IAR\settings\vcan_Kinetis.DZ10_Debug.general.xcl" --backend -f "C:\Users\Jack\Desktop\小车K60测试版\Prj\IAR\settings\vcan_Kinetis.DZ10_Debug.driver.xcl" 
 
 @echo off 
 goto end 
@@ -34,7 +34,7 @@ goto end
 
 @echo on 
 
-"C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.2\common\bin\cspybat" -f "D:\WorkPlace\光电小车\山外K60 UD专属例程6.2\K60 UD版代码\37.LCD_英文_汉字_浮点数_整型_显示\Prj\IAR\settings\vcan_Kinetis.DZ10_Debug.general.xcl" "--debug_file=%1" --backend -f "D:\WorkPlace\光电小车\山外K60 UD专属例程6.2\K60 UD版代码\37.LCD_英文_汉字_浮点数_整型_显示\Prj\IAR\settings\vcan_Kinetis.DZ10_Debug.driver.xcl" 
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.2\common\bin\cspybat" -f "C:\Users\Jack\Desktop\小车K60测试版\Prj\IAR\settings\vcan_Kinetis.DZ10_Debug.general.xcl" "--debug_file=%1" --backend -f "C:\Users\Jack\Desktop\小车K60测试版\Prj\IAR\settings\vcan_Kinetis.DZ10_Debug.driver.xcl" 
 
 @echo off 
 :end

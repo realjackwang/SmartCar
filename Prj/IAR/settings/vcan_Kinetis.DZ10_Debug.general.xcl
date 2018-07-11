@@ -2,13 +2,13 @@
 
 "C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.2\arm\bin\armjlink.dll" 
 
-"D:\WorkPlace\光电小车\山外K60 UD专属例程6.2\K60 UD版代码\37.LCD_英文_汉字_浮点数_整型_显示\Prj\IAR\DZ10_Debug\Exe\vcan_Kinetis.out" 
+"C:\Users\Jack\Desktop\小车K60测试版\Prj\IAR\DZ10_Debug\Exe\vcan_Kinetis.out" 
 
 --plugin "C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.2\arm\bin\armbat.dll" 
 
 --device_macro "C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.2\arm\config\debugger\Freescale\Kxx.dmac" 
 
---flash_loader "D:\WorkPlace\光电小车\山外K60 UD专属例程6.2\K60 UD版代码\37.LCD_英文_汉字_浮点数_整型_显示\Prj\IAR\config files\FlashK60Xxxx.board" 
+--flash_loader "C:\Users\Jack\Desktop\小车K60测试版\Prj\IAR\config files\FlashK60Xxxx.board" 
 
 
 
